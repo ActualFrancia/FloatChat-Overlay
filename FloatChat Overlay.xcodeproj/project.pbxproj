@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91CE57422B2D00A900F9D1D9 /* FloatChat_OverlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CE57412B2D00A900F9D1D9 /* FloatChat_OverlayApp.swift */; };
+		91CE57442B2D00A900F9D1D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CE57432B2D00A900F9D1D9 /* ContentView.swift */; };
+		91CE57462B2D00AA00F9D1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CE57452B2D00AA00F9D1D9 /* Assets.xcassets */; };
+		91CE57492B2D00AA00F9D1D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CE57482B2D00AA00F9D1D9 /* Preview Assets.xcassets */; };
+		91CE57542B2D00AA00F9D1D9 /* FloatChat_OverlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CE57532B2D00AA00F9D1D9 /* FloatChat_OverlayTests.swift */; };
+		91CE575E2B2D00AA00F9D1D9 /* FloatChat_OverlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CE575D2B2D00AA00F9D1D9 /* FloatChat_OverlayUITests.swift */; };
+		91CE57602B2D00AA00F9D1D9 /* FloatChat_OverlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CE575F2B2D00AA00F9D1D9 /* FloatChat_OverlayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91CE57502B2D00AA00F9D1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91CE57362B2D00A900F9D1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CE573D2B2D00A900F9D1D9;
+			remoteInfo = "FloatChat Overlay";
+		};
+		91CE575A2B2D00AA00F9D1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91CE57362B2D00A900F9D1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CE573D2B2D00A900F9D1D9;
+			remoteInfo = "FloatChat Overlay";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91CE573E2B2D00A900F9D1D9 /* FloatChat Overlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FloatChat Overlay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CE57412B2D00A900F9D1D9 /* FloatChat_OverlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatChat_OverlayApp.swift; sourceTree = "<group>"; };
+		91CE57432B2D00A900F9D1D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91CE57452B2D00AA00F9D1D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91CE57482B2D00AA00F9D1D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91CE574A2B2D00AA00F9D1D9 /* FloatChat_Overlay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FloatChat_Overlay.entitlements; sourceTree = "<group>"; };
+		91CE574F2B2D00AA00F9D1D9 /* FloatChat OverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FloatChat OverlayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CE57532B2D00AA00F9D1D9 /* FloatChat_OverlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatChat_OverlayTests.swift; sourceTree = "<group>"; };
+		91CE57592B2D00AA00F9D1D9 /* FloatChat OverlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FloatChat OverlayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CE575D2B2D00AA00F9D1D9 /* FloatChat_OverlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatChat_OverlayUITests.swift; sourceTree = "<group>"; };
+		91CE575F2B2D00AA00F9D1D9 /* FloatChat_OverlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatChat_OverlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91CE573B2B2D00A900F9D1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CE574C2B2D00AA00F9D1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CE57562B2D00AA00F9D1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91CE57352B2D00A900F9D1D9 = {
+			isa = PBXGroup;
+			children = (
+				91CE57402B2D00A900F9D1D9 /* FloatChat Overlay */,
+				91CE57522B2D00AA00F9D1D9 /* FloatChat OverlayTests */,
+				91CE575C2B2D00AA00F9D1D9 /* FloatChat OverlayUITests */,
+				91CE573F2B2D00A900F9D1D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91CE573F2B2D00A900F9D1D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91CE573E2B2D00A900F9D1D9 /* FloatChat Overlay.app */,
+				91CE574F2B2D00AA00F9D1D9 /* FloatChat OverlayTests.xctest */,
+				91CE57592B2D00AA00F9D1D9 /* FloatChat OverlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91CE57402B2D00A900F9D1D9 /* FloatChat Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				91CE57412B2D00A900F9D1D9 /* FloatChat_OverlayApp.swift */,
+				91CE57432B2D00A900F9D1D9 /* ContentView.swift */,
+				91CE57452B2D00AA00F9D1D9 /* Assets.xcassets */,
+				91CE574A2B2D00AA00F9D1D9 /* FloatChat_Overlay.entitlements */,
+				91CE57472B2D00AA00F9D1D9 /* Preview Content */,
+			);
+			path = "FloatChat Overlay";
+			sourceTree = "<group>";
+		};
+		91CE57472B2D00AA00F9D1D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91CE57482B2D00AA00F9D1D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91CE57522B2D00AA00F9D1D9 /* FloatChat OverlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				91CE57532B2D00AA00F9D1D9 /* FloatChat_OverlayTests.swift */,
+			);
+			path = "FloatChat OverlayTests";
+			sourceTree = "<group>";
+		};
+		91CE575C2B2D00AA00F9D1D9 /* FloatChat OverlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91CE575D2B2D00AA00F9D1D9 /* FloatChat_OverlayUITests.swift */,
+				91CE575F2B2D00AA00F9D1D9 /* FloatChat_OverlayUITestsLaunchTests.swift */,
+			);
+			path = "FloatChat OverlayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91CE573D2B2D00A900F9D1D9 /* FloatChat Overlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CE57632B2D00AA00F9D1D9 /* Build configuration list for PBXNativeTarget "FloatChat Overlay" */;
+			buildPhases = (
+				91CE573A2B2D00A900F9D1D9 /* Sources */,
+				91CE573B2B2D00A900F9D1D9 /* Frameworks */,
+				91CE573C2B2D00A900F9D1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FloatChat Overlay";
+			productName = "FloatChat Overlay";
+			productReference = 91CE573E2B2D00A900F9D1D9 /* FloatChat Overlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91CE574E2B2D00AA00F9D1D9 /* FloatChat OverlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CE57662B2D00AA00F9D1D9 /* Build configuration list for PBXNativeTarget "FloatChat OverlayTests" */;
+			buildPhases = (
+				91CE574B2B2D00AA00F9D1D9 /* Sources */,
+				91CE574C2B2D00AA00F9D1D9 /* Frameworks */,
+				91CE574D2B2D00AA00F9D1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CE57512B2D00AA00F9D1D9 /* PBXTargetDependency */,
+			);
+			name = "FloatChat OverlayTests";
+			productName = "FloatChat OverlayTests";
+			productReference = 91CE574F2B2D00AA00F9D1D9 /* FloatChat OverlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91CE57582B2D00AA00F9D1D9 /* FloatChat OverlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CE57692B2D00AA00F9D1D9 /* Build configuration list for PBXNativeTarget "FloatChat OverlayUITests" */;
+			buildPhases = (
+				91CE57552B2D00AA00F9D1D9 /* Sources */,
+				91CE57562B2D00AA00F9D1D9 /* Frameworks */,
+				91CE57572B2D00AA00F9D1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CE575B2B2D00AA00F9D1D9 /* PBXTargetDependency */,
+			);
+			name = "FloatChat OverlayUITests";
+			productName = "FloatChat OverlayUITests";
+			productReference = 91CE57592B2D00AA00F9D1D9 /* FloatChat OverlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91CE57362B2D00A900F9D1D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					91CE573D2B2D00A900F9D1D9 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					91CE574E2B2D00AA00F9D1D9 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 91CE573D2B2D00A900F9D1D9;
+					};
+					91CE57582B2D00AA00F9D1D9 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 91CE573D2B2D00A900F9D1D9;
+					};
+				};
+			};
+			buildConfigurationList = 91CE57392B2D00A900F9D1D9 /* Build configuration list for PBXProject "FloatChat Overlay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91CE57352B2D00A900F9D1D9;
+			productRefGroup = 91CE573F2B2D00A900F9D1D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91CE573D2B2D00A900F9D1D9 /* FloatChat Overlay */,
+				91CE574E2B2D00AA00F9D1D9 /* FloatChat OverlayTests */,
+				91CE57582B2D00AA00F9D1D9 /* FloatChat OverlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91CE573C2B2D00A900F9D1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CE57492B2D00AA00F9D1D9 /* Preview Assets.xcassets in Resources */,
+				91CE57462B2D00AA00F9D1D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CE574D2B2D00AA00F9D1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CE57572B2D00AA00F9D1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91CE573A2B2D00A900F9D1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CE57442B2D00A900F9D1D9 /* ContentView.swift in Sources */,
+				91CE57422B2D00A900F9D1D9 /* FloatChat_OverlayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CE574B2B2D00AA00F9D1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CE57542B2D00AA00F9D1D9 /* FloatChat_OverlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CE57552B2D00AA00F9D1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CE57602B2D00AA00F9D1D9 /* FloatChat_OverlayUITestsLaunchTests.swift in Sources */,
+				91CE575E2B2D00AA00F9D1D9 /* FloatChat_OverlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91CE57512B2D00AA00F9D1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CE573D2B2D00A900F9D1D9 /* FloatChat Overlay */;
+			targetProxy = 91CE57502B2D00AA00F9D1D9 /* PBXContainerItemProxy */;
+		};
+		91CE575B2B2D00AA00F9D1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CE573D2B2D00A900F9D1D9 /* FloatChat Overlay */;
+			targetProxy = 91CE575A2B2D00AA00F9D1D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91CE57612B2D00AA00F9D1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91CE57622B2D00AA00F9D1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		91CE57642B2D00AA00F9D1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FloatChat Overlay/FloatChat_Overlay.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FloatChat Overlay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.FloatChat-Overlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91CE57652B2D00AA00F9D1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FloatChat Overlay/FloatChat_Overlay.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FloatChat Overlay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.FloatChat-Overlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		91CE57672B2D00AA00F9D1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.FloatChat-OverlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatChat Overlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FloatChat Overlay";
+			};
+			name = Debug;
+		};
+		91CE57682B2D00AA00F9D1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.FloatChat-OverlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatChat Overlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FloatChat Overlay";
+			};
+			name = Release;
+		};
+		91CE576A2B2D00AA00F9D1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.FloatChat-OverlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FloatChat Overlay";
+			};
+			name = Debug;
+		};
+		91CE576B2B2D00AA00F9D1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Francia.FloatChat-OverlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FloatChat Overlay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91CE57392B2D00A900F9D1D9 /* Build configuration list for PBXProject "FloatChat Overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CE57612B2D00AA00F9D1D9 /* Debug */,
+				91CE57622B2D00AA00F9D1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CE57632B2D00AA00F9D1D9 /* Build configuration list for PBXNativeTarget "FloatChat Overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CE57642B2D00AA00F9D1D9 /* Debug */,
+				91CE57652B2D00AA00F9D1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CE57662B2D00AA00F9D1D9 /* Build configuration list for PBXNativeTarget "FloatChat OverlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CE57672B2D00AA00F9D1D9 /* Debug */,
+				91CE57682B2D00AA00F9D1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CE57692B2D00AA00F9D1D9 /* Build configuration list for PBXNativeTarget "FloatChat OverlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CE576A2B2D00AA00F9D1D9 /* Debug */,
+				91CE576B2B2D00AA00F9D1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91CE57362B2D00A900F9D1D9 /* Project object */;
+}
